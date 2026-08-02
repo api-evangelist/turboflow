@@ -1,4 +1,16 @@
 aid: turboflow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turboflow.png
 name: TurboFlow
 description: 'TurboFlow is a company surfaced as a portfolio company of pantera-capital and added to the
   API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
@@ -12,10 +24,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- Web3
+- Blockchain
+- Wallet
+- DeFi
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +39,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/turboflow-domain-security.yml
 - type: Website
   url: https://www.turboflow.xyz/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
